@@ -30,7 +30,7 @@ Claude CodeやClaudeのスキル対応環境で、`skills/draft-or-done/SKILL.md
 設定の「機能」で「クラウドでコードを実行」と「外部ネットワークへの通信を許可」をオンにしてから、新しいチャットで次のように送る。
 
 ```
-https://github.com/yukishibue-bot/draft-or-done のスキルを使えるようにして
+https://github.com/ai-jissen-lab/draft-or-done のスキルを使えるようにして
 ```
 
 うまくいかないときは、`skills/draft-or-done`フォルダを丸ごとzipにして、「設定」の「Skills」からアップロードする。
@@ -38,7 +38,7 @@ https://github.com/yukishibue-bot/draft-or-done のスキルを使えるよう�
 ### Claude Codeで使う
 
 ```
-git clone https://github.com/yukishibue-bot/draft-or-done.git
+git clone https://github.com/ai-jissen-lab/draft-or-done.git
 cp -r draft-or-done/skills/draft-or-done ~/.claude/skills/
 ```
 
@@ -52,7 +52,7 @@ cp -r draft-or-done/skills/draft-or-done ~/.claude/skills/
 
 同じ作者のスキルに、AIのメモリの育ちすぎを防ぐmemory-metabolismがある。あちらは「覚えたことの状態管理」、こちらは「やったことの状態管理」。併用すると、言うこととやることの両方の取り違えが減る。
 
-https://github.com/yukishibue-bot/memory-metabolism
+https://github.com/ai-jissen-lab/memory-metabolism
 
 ## ライセンス
 
